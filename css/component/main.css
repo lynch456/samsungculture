@@ -1,5 +1,5 @@
 .sec-home {
-  background-image: url(images/head-main.jpg);
+  background-image: url(../../images/head-main.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -90,11 +90,11 @@
   line-height: 30px;
 }
 .main-about {
-  background-image: url(/images/card-banner-main-about.jpg);
+  background-image: url(../../images/card-banner-main-about.jpg);
   height: 360px !important;
 }
 .leeum {
-  background-image: url(/images/card-banner-main-leeum.jpg);
+  background-image: url(../../images/card-banner-main-leeum.jpg);
 }
 .cover::after {
   content: "";
@@ -126,13 +126,13 @@
   color: #222222;
 }
 .wana {
-  background-image: url(/images/head-wana.jpg);
+  background-image: url(../../images/head-wana.jpg);
 }
 .business {
-  background-image: url(/images/head-cultural-support-business.jpg);
+  background-image: url(../../images/head-cultural-support-business.jpg);
 }
 .banner {
-  background-image: url(/images/card-banner-main-history.jpg);
+  background-image: url(../../images/card-banner-main-history.jpg);
   width: 100%;
   height: 420px;
   background-size: cover;
@@ -187,7 +187,7 @@
 }
 .banner-title a:after {
   content: "";
-  background-image: url(/images/ico-button-arrow-w.svg);
+  background-image: url(../../images/ico-button-arrow-w.svg);
   background-repeat: no-repeat;
   background-size: 6px;
   background-position: center;
@@ -236,10 +236,10 @@
   height: 100%;
 }
 .leeum-card {
-  background-image: url(/images/card-banner-main-leeum-1.jpg);
+  background-image: url(../../images/card-banner-main-leeum-1.jpg);
 }
 .hoam-card {
-  background-image: url(/images/card-banner-main-hoam.jpg);
+  background-image: url(../../images/card-banner-main-hoam.jpg);
 }
 .museum-card_title {
   padding: 32px 0 0 32px;
@@ -423,10 +423,10 @@
   height: 260px;
 }
 .inquiry-card {
-  background-image: url(/images/quick-banner-public-disclosure-of-management.jpg);
+  background-image: url(../../images/quick-banner-public-disclosure-of-management.jpg);
 }
 .qna-card {
-  background-image: url(/images/quick-banner-annaul-report.jpg);
+  background-image: url(../../images/quick-banner-annaul-report.jpg);
 }
 .card-hover:hover {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);

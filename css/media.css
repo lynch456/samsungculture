@@ -28,7 +28,7 @@
   .all-menu_mo {
     display: block;
     position: fixed;
-    top: 0;
+    top: 80vh;
     left: 0;
     padding: 20px;
     box-sizing: border-box;
@@ -52,14 +52,27 @@
   }
   .menu-bar {
     display: block;
+    transform: translate(0, -50%);
     width: 23px;
     height: 2px;
     background-color: #000;
+    transition: all 0.5s;
   }
   .menu-bar:nth-child(2) {
     margin: 6px 0;
   }
-  .menu-bar_active {
+  .menu-bar_active .menu-bar:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-bar_active .menu-bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: absolute;
+    transition: all 0.5s;
+  }
+  .menu-bar_active .menu-bar:nth-child(3) {
+    transform: rotate(-45deg);
+    position: absolute;
+    transition: all 0.5s;
   }
   .body-bg {
     background-color: rgba(0, 0, 0, 0.5);

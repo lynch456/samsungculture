@@ -12,4 +12,8 @@ $(document).ready(function () {
   $(".family-site").click(function () {
     $(".family-sub").toggleClass("open");
   });
+
+  $(".all-menu").click(function () {
+    $(this).toggleClass("menu-bar_active");
+  });
 });

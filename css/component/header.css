@@ -1,0 +1,146 @@
+.header {
+  width: 100%;
+  height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: all 0.3s;
+}
+.header-active {
+  background-color: #fff;
+  color: #5a5a5a;
+  border-bottom: 1px solid #eee;
+  transition: all 0.3s;
+}
+.header-inner {
+  margin: 0 40px;
+  position: relative;
+  height: 100%;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 200px;
+  transform: translate(0, -50%);
+}
+.logo a img {
+  display: block;
+  width: 100%;
+}
+.main-menu {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-menu > li {
+  margin: 3px 10px;
+  position: relative;
+}
+.main-menu > li > a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 10px;
+  transition: all 0.3s;
+}
+.font-active {
+  color: #5a5a5a !important;
+  transition: all 0.3s;
+}
+.sub-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  top: 36px;
+  padding: 0px 15px;
+  border-radius: 16px;
+  min-width: 164px;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-height: 0px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.main-menu > li:hover .sub-menu {
+  max-height: 300px;
+  transition: all 0.5s;
+}
+.sub-menu ul {
+  padding: 15px 0;
+}
+.sub-menu li {
+  line-height: 20px;
+}
+.sub-menu li a {
+  display: block;
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: #5a5a5a;
+  transition: all 0s !important;
+}
+.sub-menu li a:hover {
+  background-color: #7cc8ff;
+  transition: all 0s !important;
+}
+.menu-icon::before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.about-icon:before {
+  background-image: url(/images/ico-gnb-about.svg);
+}
+.leeum-icon:before {
+  background-image: url(/images/ico-gnb-leeum.svg);
+}
+.hoam-icon:before {
+  background-image: url(/images/ico-gnb-hoam.svg);
+}
+.cite-icon:before {
+  background-image: url(/images/ico-gnb-cite-residency.svg);
+}
+.music-icon:before {
+  background-image: url(/images/ico-gnb-musical-instrument-rental-bank.svg);
+}
+.wana-icon:before {
+  background-image: url(/images/ico-gnb-culturei.svg);
+}
+.support-icon:before {
+  background-image: url(/images/ico-gnb-support-business.svg);
+}
+.notice-icon:before {
+  background-image: url(/images/ico-gnb-notice.svg);
+}
+.qna-icon:before {
+  background-image: url(/images/ico-gnb-annual-report.svg);
+}
+.inquiry-icon:before {
+  background-image: url(/images/ico-gnb-support-business.svg);
+}
+.link {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+}
+.link li {
+  margin-left: 10px;
+}
+.link li a img {
+  width: 25px;
+  border-radius: 50%;
+}

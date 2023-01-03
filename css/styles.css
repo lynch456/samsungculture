@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "component/header.css";
+@import "component/main.css";
+@import "component/footer.css";
+
+@import "screen/about.css";
+body {
+}
+.sec-inner {
+  width: calc(100% - 80px);
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+}

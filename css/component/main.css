@@ -1,0 +1,434 @@
+.sec-home {
+  background-image: url(/images/head-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.sec-home::before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.home-inner {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.home-title {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  text-align: left;
+  width: 60%;
+  padding-left: 40px;
+  word-break: keep-all;
+}
+.home-title h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.5em;
+  letter-spacing: -0.5rem;
+}
+.home-title p {
+  font-size: 26px;
+  color: #fff;
+  letter-spacing: -0.02rem;
+}
+.card-box {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -75px;
+}
+.left-wrap {
+  width: 100%;
+  margin-right: 30px;
+}
+.right-wrap {
+  width: 100%;
+}
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+.card a {
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #fff;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+.main-card_title {
+  width: 100%;
+  padding: 32px 0 0 32px;
+  z-index: 2;
+  position: absolute;
+}
+.main-card_title h4 {
+  font-size: 18px;
+  display: block;
+  color: #fff;
+}
+.main-card_title p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.main-about {
+  background-image: url(/images/card-banner-main-about.jpg);
+  height: 360px !important;
+}
+.leeum {
+  background-image: url(/images/card-banner-main-leeum.jpg);
+}
+.cover::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  z-index: 1;
+  transition: all 0.5s;
+}
+.cover:hover:after {
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
+}
+
+.notice img {
+  width: 80px;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+.notice h4 {
+  color: #222222;
+}
+.notice p {
+  color: #222222;
+}
+.wana {
+  background-image: url(/images/head-wana.jpg);
+}
+.business {
+  background-image: url(/images/head-cultural-support-business.jpg);
+}
+.banner {
+  background-image: url(/images/card-banner-main-history.jpg);
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-title h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 35px;
+}
+.banner-title a {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  color: #f3f3f3;
+  width: 180px;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  margin: 10px auto;
+  position: relative;
+  padding: 0 10px;
+}
+.banner-title a:before {
+  content: "";
+  width: 0;
+  background-color: #0095ff;
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 10px;
+}
+.banner-title a:hover:before {
+  width: 100%;
+  transition: all 0.3s;
+}
+.banner-title a:after {
+  content: "";
+  background-image: url(/images/ico-button-arrow-w.svg);
+  background-repeat: no-repeat;
+  background-size: 6px;
+  background-position: center;
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+}
+.sec-museum {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f3f3f3;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec-title h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+.sec-museum ul {
+  display: flex;
+}
+.sec-museum ul li {
+  width: 50%;
+  height: 320px;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.sec-museum ul li:nth-child(2) {
+  margin-right: 0;
+}
+.sec-museum ul li a {
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.leeum-card {
+  background-image: url(/images/card-banner-main-leeum-1.jpg);
+}
+.hoam-card {
+  background-image: url(/images/card-banner-main-hoam.jpg);
+}
+.museum-card_title {
+  padding: 32px 0 0 32px;
+  z-index: 2;
+  position: absolute;
+}
+.museum-card_title h4 {
+  font-size: 18px;
+  display: block;
+  color: #fff;
+}
+.museum-card_title p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.sec-slider {
+  width: 100%;
+  padding: 80px 0;
+}
+.slider-wrapper {
+  width: 100%;
+  padding: 20px 0;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+}
+.slider-wrapper li {
+  width: 380px;
+  height: 460px;
+  padding: 32px;
+  margin: 0 10px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #cceaff;
+}
+
+.slider-wrapper li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slide-card_title h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.slide-card_title p {
+  font-size: 28px;
+  line-height: 1.5em;
+}
+.slick-prev {
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  z-index: 10;
+  left: -30px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.slick-prev:before {
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #0095ff;
+  transform: rotate(130deg);
+}
+.slick-prev:after {
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: 60%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #0095ff;
+  transform: rotate(-130deg);
+}
+.slick-next {
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  z-index: 10;
+  right: -30px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.slick-next:before {
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #0095ff;
+  transform: rotate(48deg);
+}
+.slick-next:after {
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: 60%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #0095ff;
+  transform: rotate(-48deg);
+}
+.card-icon {
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bar {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 100px;
+  background-color: #ccc;
+}
+.sec-news {
+  width: 100%;
+}
+.news-card_title {
+  padding: 20px 0 0 20px;
+  z-index: 2;
+  position: absolute;
+}
+.news-card_title h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.news-card_title p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.sec-news ul {
+  display: flex;
+}
+.sec-news ul li {
+  width: 50%;
+  margin-right: 40px;
+}
+.sec-news ul li:nth-child(2) {
+  margin-right: 0;
+}
+.sec-news ul li a {
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 260px;
+}
+.inquiry-card {
+  background-image: url(/images/quick-banner-public-disclosure-of-management.jpg);
+}
+.qna-card {
+  background-image: url(/images/quick-banner-annaul-report.jpg);
+}
+.card-hover:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}

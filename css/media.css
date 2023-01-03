@@ -1,0 +1,250 @@
+@media (max-width: 768px) {
+  .sec-inner {
+    width: calc(100% - 32px);
+  }
+  .header-inner {
+    margin: 0 20px;
+  }
+  .main-menu {
+    display: none;
+  }
+  .link {
+    display: none;
+  }
+  .all-menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #03a9f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .menu-bar {
+    display: block;
+    width: 23px;
+    height: 2px;
+    background-color: #000;
+  }
+  .menu-bar:nth-child(2) {
+    margin: 6px 0;
+  }
+  .menu-bar_active {
+  }
+  .body-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .sec-title {
+    margin-bottom: 20px;
+  }
+  .sec-title h2 {
+    font-size: 24px;
+  }
+  .sec-home {
+    height: 64vh;
+  }
+  .home-title {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    top: 32%;
+  }
+  .home-title h1 {
+    letter-spacing: -0.2rem;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .home-title p {
+    font-size: 18px;
+    letter-spacing: -0.02rem;
+  }
+  .card-wrap {
+  }
+  .card-box {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .left-wrap {
+    margin-right: 0px;
+  }
+  .card a {
+    height: 200px;
+  }
+  .main-about {
+    background-image: url(/images/card-banner-main-about.jpg);
+    height: 200px !important;
+  }
+  .main-card_title {
+    width: 80%;
+    padding: 22px 0 0 19px;
+  }
+  .main-card_title h4 {
+    font-size: 15px;
+  }
+  .main-card_title p {
+    font-size: 18px;
+  }
+  .banner {
+    height: 280px;
+  }
+  .banner-title {
+    width: 100%;
+  }
+  .banner-title h3 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  br {
+    display: none;
+  }
+  .sec-museum ul {
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .sec-museum ul li {
+    width: 100%;
+    height: 200px;
+    margin-right: 0px;
+  }
+  .sec-museum ul li:nth-child(2) {
+    margin-top: 15px;
+  }
+  .sec-museum ul li a {
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  .museum-card_title {
+    padding: 22px 0 0 19px;
+    position: absolute;
+  }
+  .museum-card_title h4 {
+    font-size: 15px;
+  }
+  .museum-card_title p {
+    font-size: 18px;
+  }
+
+  .slide-card_title {
+    width: 240px;
+  }
+  .slider-wrapper li {
+    width: 240px;
+    height: 320px;
+    padding: 20px;
+  }
+
+  .slide-card_title h4 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .slide-card_title p {
+    font-size: 18px;
+    line-height: 1.5em;
+    word-break: keep-all;
+  }
+  .slick-prev {
+    left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .slick-next {
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .slick-prev:before {
+    width: 16px;
+  }
+  .slick-prev:after {
+    width: 16px;
+  }
+  .slick-next:before {
+    width: 16px;
+  }
+  .slick-next:after {
+    width: 16px;
+  }
+  .card-icon {
+    width: 50%;
+  }
+  .news-card_title h4 {
+    font-size: 22px;
+  }
+  .news-card_title p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .sec-news ul {
+    flex-direction: column;
+  }
+  .sec-news ul li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .sec-news ul li a {
+    height: 200px;
+  }
+  .footer {
+    padding: 30px 0 50px 0;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .footer-logo img {
+    width: 100%;
+  }
+  .address {
+    width: 50%;
+    top: 70px;
+    left: 0;
+    transform: translate(0%, 0%);
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .sns a {
+    width: 40px;
+    height: 40px;
+  }
+  .copy {
+    font-size: 14px;
+    bottom: 20px;
+  }
+  .clause {
+    bottom: 40px;
+    left: 0;
+    transform: translate(0%, 0%);
+    font-size: 13px;
+  }
+  .clause a {
+    margin-right: 7px;
+  }
+  .system a {
+    width: 50px;
+  }
+  .system a img {
+    width: 50px;
+  }
+  .family-site {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    width: 100%;
+  }
+  .family-site > a {
+    font-size: 15px;
+  }
+}

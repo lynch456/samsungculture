@@ -1,0 +1,148 @@
+.about-main {
+  margin-top: 64px;
+}
+.about-header {
+  background-color: rgba(255, 255, 255, 1);
+}
+.about-header .main-menu > li > a {
+  color: #5a5a5a;
+}
+.about-header_active {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s;
+}
+.about-home {
+  background-image: url(/images/head-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 420px;
+  border-radius: 20px;
+  position: relative;
+}
+.about-home::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.about-title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-title h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+}
+.about-title p {
+  font-size: 18px;
+  color: #fff;
+}
+.flex-box {
+  display: flex;
+  margin: 100px 0;
+}
+.flex-box .sec-title {
+  width: 50%;
+}
+.flex-box .about-text {
+  width: 50%;
+}
+.about {
+  width: 100%;
+  height: 500px;
+  margin: 50px 0;
+}
+.about-text p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.about-text p:nth-child(2) {
+  margin-top: 20px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  color: #9f9f9f;
+  width: 180px;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+  padding: 0 10px;
+  margin-top: 50px;
+}
+.more:before {
+  content: "";
+  width: 0;
+  background-color: #0095ff;
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 10px;
+}
+.more:hover:before {
+  width: 100%;
+  transition: all 0.3s;
+}
+.more:hover.more {
+  color: #fff;
+  transition: all 0.5s;
+}
+.more:after {
+  content: "";
+  background-image: url(/images/ico-button-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 6px;
+  background-position: center;
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+}
+.more:hover:after {
+  background-image: url(/images/ico-button-arrow-w.svg);
+}
+.about-value {
+}
+.about-value > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-value > ul > li {
+  width: 50%;
+}
+.about-banner {
+  background-image: url(/images/image-banner-about.jpg);
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.vision {
+  width: 100%;
+  height: 500px;
+}

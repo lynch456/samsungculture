@@ -78,11 +78,11 @@
     width: 100%;
     height: auto;
     background-color: #fff;
-    transition: all 0.5s;
+    transition: all 0.6s;
   }
   .menu-mo_active {
     bottom: 0;
-    transition: all 0.5s;
+    transition: all 0.6s;
   }
   .link-mo {
     display: flex;

@@ -15,5 +15,7 @@ $(document).ready(function () {
 
   $(".all-menu").click(function () {
     $(this).toggleClass("menu-bar_active");
+    $(".all-menu_mo").toggleClass("menu-mo_active");
+    $("body").toggleClass("open-menu");
   });
 });

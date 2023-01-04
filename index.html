@@ -9,13 +9,13 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
-
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/aos.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <title>삼성문화재단</title>
   </head>
-  <body>
+  <body class="body">
+    <div id="bg"></div>
     <header class="header">
       <div class="header-inner">
         <div class="logo">
@@ -50,7 +50,9 @@
                   <li>
                     <a href="#" class="menu-icon cite-icon">시테 레지던시</a>
                   </li>
-                  <li><a href="#" class="menu-icon music-icon">악기은행</a></li>
+                  <li>
+                    <a href="#" class="menu-icon music-icon">악기은행</a>
+                  </li>
                   <li><a href="#" class="menu-icon wana-icon">와나</a></li>
                   <li>
                     <a href="#" class="menu-icon support-icon">지원사업</a>
@@ -68,7 +70,9 @@
                   <li>
                     <a href="#" class="menu-icon qna-icon">자주하는 질문</a>
                   </li>
-                  <li><a href="#" class="menu-icon inquiry-icon">문의처</a></li>
+                  <li>
+                    <a href="#" class="menu-icon inquiry-icon">문의처</a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -111,30 +115,42 @@
               <a href="#"><img src="./images/ico-hoam.png" alt="" /></a>
             </li>
           </div>
-          <div class="menu-mo">
-            <div>
+          <ul class="menu-mo">
+            <li class="mo-about menu-list">
               <span>삼성문화재단 소개</span>
-              <a href="#">재단소개</a>
-            </div>
-            <div>
+              <ul>
+                <li><a href="#" class="menu-icon about-icon">재단소개</a></li>
+              </ul>
+            </li>
+            <li class="mo-business menu-list">
               <span>주요 사업</span>
-              <a href="#">리움 미술관</a>
-              <a href="#">호암 미술관</a>
-              <a href="#">시테 레지던시</a>
-              <a href="#">악기은행</a>
-              <a href="#">와나</a>
-              <a href="#">지원사업</a>
-            </div>
-            <div>
+              <ul>
+                <li>
+                  <a href="#" class="menu-icon leeum-icon">리움 미술관</a>
+                </li>
+                <li><a href="#" class="menu-icon hoam-icon">호암 미술관</a></li>
+                <li>
+                  <a href="#" class="menu-icon cite-icon">시테 레지던시</a>
+                </li>
+                <li><a href="#" class="menu-icon music-icon">악기은행</a></li>
+                <li><a href="#" class="menu-icon wana-icon">와나</a></li>
+                <li><a href="#" class="menu-icon support-icon">지원사업</a></li>
+              </ul>
+            </li>
+            <li class="nmo-ews menu-list">
               <span>재단 소식</span>
-              <a href="#">공지사항</a>
-              <a href="#">자주하는 질문</a>
-              <a href="#">문의처</a>
-            </div>
-            <div>
+              <ul>
+                <li><a href="#" class="menu-icon notice-icon">공지사항</a></li>
+                <li>
+                  <a href="#" class="menu-icon qna-icon">자주하는 질문</a>
+                </li>
+                <li><a href="#" class="menu-icon inquiry-icon">문의처</a></li>
+              </ul>
+            </li>
+            <li class="mo-esg menu-list">
               <span>ESG 리포트</span>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -212,13 +228,13 @@
           </div>
         </div>
       </section>
-      <section class="sec-museum" data-aos="fade-up">
+      <section class="sec-museum">
         <div class="sec-inner">
-          <div class="sec-title">
+          <div class="sec-title" data-aos="fade-up">
             <h2>삼성문화재단의 미술관을 둘러보세요.</h2>
           </div>
           <ul>
-            <li>
+            <li data-aos="fade-up">
               <a href="#" class="leeum-card cover card-hover">
                 <div class="museum-card_title">
                   <h4>리움미술관</h4>
@@ -226,7 +242,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li data-aos="fade-up">
               <a href="#" class="hoam-card cover card-hover">
                 <div class="museum-card_title">
                   <h4>호암미술관</h4>
@@ -340,15 +356,14 @@
           </ul>
         </div>
       </section>
-
-      <section class="sec-news" data-aos="fade-up">
+      <section class="sec-news">
         <div class="sec-inner">
           <div class="bar"></div>
-          <div class="sec-title">
+          <div class="sec-title" data-aos="fade-up">
             <h2>삼성문화재단의 궁금한 소식을 확인하세요.</h2>
           </div>
           <ul>
-            <li>
+            <li data-aos="fade-up">
               <a href="#" class="inquiry-card cover card-hover">
                 <div class="news-card_title">
                   <h4>문의처</h4>
@@ -356,7 +371,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li data-aos="fade-up">
               <a href="#" class="qna-card cover card-hover">
                 <div class="news-card_title">
                   <h4>자주 하는 질문</h4>

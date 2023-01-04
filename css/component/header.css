@@ -101,34 +101,34 @@
   vertical-align: middle;
 }
 .about-icon:before {
-  background-image: url(/images/ico-gnb-about.svg);
+  background-image: url(../../images/ico-gnb-about.svg);
 }
 .leeum-icon:before {
-  background-image: url(/images/ico-gnb-leeum.svg);
+  background-image: url(../../images/ico-gnb-leeum.svg);
 }
 .hoam-icon:before {
-  background-image: url(/images/ico-gnb-hoam.svg);
+  background-image: url(../../images/ico-gnb-hoam.svg);
 }
 .cite-icon:before {
-  background-image: url(/images/ico-gnb-cite-residency.svg);
+  background-image: url(../../images/ico-gnb-cite-residency.svg);
 }
 .music-icon:before {
-  background-image: url(/images/ico-gnb-musical-instrument-rental-bank.svg);
+  background-image: url(../../images/ico-gnb-musical-instrument-rental-bank.svg);
 }
 .wana-icon:before {
-  background-image: url(/images/ico-gnb-culturei.svg);
+  background-image: url(../../images/ico-gnb-culturei.svg);
 }
 .support-icon:before {
-  background-image: url(/images/ico-gnb-support-business.svg);
+  background-image: url(../../images/ico-gnb-support-business.svg);
 }
 .notice-icon:before {
-  background-image: url(/images/ico-gnb-notice.svg);
+  background-image: url(../../images/ico-gnb-notice.svg);
 }
 .qna-icon:before {
-  background-image: url(/images/ico-gnb-annual-report.svg);
+  background-image: url(../../images/ico-gnb-annual-report.svg);
 }
 .inquiry-icon:before {
-  background-image: url(/images/ico-gnb-support-business.svg);
+  background-image: url(../../images/ico-gnb-support-business.svg);
 }
 .link {
   position: absolute;
